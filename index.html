@@ -63,7 +63,7 @@
             </a>
 
             <!-- Desktop Navigation Links (Centered) -->
-            <div class="hidden lg:flex items-center space-x-8 rtl:space-x-reverse flex-1 justify-center px-4">
+            <div class="hidden xl:flex items-center space-x-8 rtl:space-x-reverse flex-1 justify-center px-4">
                 <a href="index.html" class="nav-link">Home 1</a>
                 <a href="home-2.html" class="nav-link">Home 2</a>
                 <a href="about.html" class="nav-link">About</a>
@@ -73,12 +73,12 @@
             </div>
 
             <div
-                class="hidden lg:flex items-center space-x-5 rtl:space-x-reverse lg:min-w-[280px] justify-end border-l border-gray-300 dark:border-gray-700 pl-4 rtl:pl-0 rtl:pr-4">
+                class="hidden xl:flex items-center space-x-5 rtl:space-x-reverse xl:min-w-[280px] justify-end border-l border-gray-300 dark:border-gray-700 pl-4 rtl:pl-0 rtl:pr-4">
                 <button id="theme-toggle"
                     class="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:scale-110 transition-transform">
                     <svg class="hidden dark:block w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
                         <path
-                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" />
+                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1-0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" />
                     </svg>
                     <svg class="block dark:hidden w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
@@ -95,7 +95,7 @@
             </div>
 
 
-            <div class="lg:hidden flex items-center space-x-1 sm:space-x-2 rtl:space-x-reverse shrink-0">
+            <div class="xl:hidden flex items-center space-x-1 sm:space-x-2 rtl:space-x-reverse shrink-0">
                 <button id="theme-toggle-mobile"
                     class="p-1 sm:p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition-transform active:scale-90 flex-shrink-0">
                     <svg class="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
@@ -109,7 +109,7 @@
                     class="p-1.5 sm:p-2 bg-amber-600 text-white rounded-xl shadow-lg shadow-amber-600/20 active:scale-90 transition-transform flex items-center justify-center shrink-0">
                     <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7" />
+                            d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
             </div>
@@ -135,12 +135,12 @@
 
     <main class="pt-20">
         <!-- Section 1: Hero -->
-        <section id="hero" class="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
+        <section id="hero" class="relative min-h-[calc(100vh-5rem)] flex items-center justify-center py-12 md:py-20 overflow-hidden">
             <!-- Background Image with Overlay -->
             <div class="absolute inset-0 z-0">
                 <img src="https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&q=80&w=2070"
                     alt="Classical String Quartet" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
             </div>
 
             <div class="relative z-10 max-w-7xl mx-auto px-6 text-center w-full">
@@ -155,7 +155,7 @@
                         intimate candlelit weddings to grand gala dinners, experience the transformative power of live
                         classical music performed by award-winning virtuosos.</p>
                         <div
-                            class="flex flex-col sm:flex-row flex-wrap gap-6 md:gap-8 pt-4 justify-center w-full max-w-md mx-auto sm:max-w-none">
+                            class="flex flex-col sm:flex-row flex-wrap gap-6 md:gap-8 pt-12 justify-center w-full max-w-md mx-auto sm:max-w-none">
                         <a href="events.html"
                             class="group px-8 py-4 md:px-12 md:py-5 bg-amber-600 text-white rounded-full font-bold hover:bg-amber-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-2xl shadow-amber-600/30 hover:shadow-amber-600/50 hover:-translate-y-1 hover:scale-105 active:scale-95 text-sm md:text-base whitespace-nowrap">Explore
                             Samples <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1 rtl:rotate-180" fill="none" stroke="currentColor"
@@ -181,69 +181,107 @@
                     emotional depth of Elysian Strings. Recorded live at the Royal Philharmonic Hall.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
                 <!-- Sample 1 -->
                 <div
-                    class="group bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
-                    <div class="flex items-center justify-between mb-6">
-                        <div
-                            class="w-16 h-16 bg-amber-600/10 text-amber-600 rounded-2xl flex items-center justify-center group-hover:bg-amber-600 group-hover:text-white group-hover:shadow-2xl group-hover:shadow-amber-600/40 transition-all duration-500">
-                            <svg class="w-8 h-8 transform group-hover:scale-110 transition-transform"
-                                fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M8 5v14l11-7z" />
-                            </svg>
+                    class="group relative bg-gray-900 border border-gray-100 dark:border-gray-700 p-8 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden text-center">
+                    <img src="assets/img/vivaldi_spring.png" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-opacity duration-700" alt="Vivaldi Spring">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/40 to-transparent"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-center justify-center gap-x-12 mb-8">
+                            <div
+                                class="w-16 h-16 bg-amber-600 text-white rounded-2xl flex items-center justify-center shadow-xl shadow-amber-600/30 group-hover:scale-110 transition-transform duration-500 cursor-pointer">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                            <span class="text-xl font-bold font-mono text-white/90 drop-shadow-md">04:22</span>
                         </div>
-                        <span class="text-sm font-mono text-gray-400">04:22</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Vivaldi: Four Seasons (Spring)</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-6">A spirited and vibrant rendition perfect for
-                        celebratory arrivals.</p>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 h-1.5 rounded-full overflow-hidden">
-                        <div class="bg-amber-600 h-full w-1/3"></div>
+                        <h3 class="text-2xl font-bold mb-3 text-white">Vivaldi: Four Seasons (Spring)</h3>
+                        <p class="text-gray-300 mb-8 leading-relaxed">A spirited and vibrant rendition perfect for
+                            celebratory arrivals.</p>
+                        <div class="w-full bg-white/10 h-2 rounded-full overflow-hidden flex justify-center">
+                            <div class="bg-amber-600 h-full w-3/4 shadow-[0_0_10px_rgba(212,175,55,0.8)]"></div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Sample 2 -->
                 <div
-                    class="group bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 scale-105 z-10 bg-white dark:!bg-gray-900 border-amber-600/20">
-                    <div class="flex items-center justify-between mb-6">
-                        <div
-                            class="w-16 h-16 bg-amber-600 text-white rounded-2xl flex items-center justify-center shadow-2xl shadow-amber-600/40">
-                            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
-                            </svg>
+                    class="group relative bg-gray-900 border border-amber-600/30 p-8 rounded-3xl shadow-2xl transition-all duration-500 overflow-hidden scale-105 z-10 text-center">
+                    <img src="assets/img/pachelbel_canon.png" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-70 transition-opacity duration-700" alt="Pachelbel Canon">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/50 to-transparent"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-center justify-center gap-x-12 mb-8 relative">
+                            <div
+                                class="w-16 h-16 bg-amber-600 text-white rounded-2xl flex items-center justify-center shadow-2xl shadow-amber-600/40 group-hover:scale-110 transition-all duration-500 cursor-pointer">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                                </svg>
+                            </div>
+                            <span class="text-xl font-bold font-mono text-white/90 drop-shadow-md">03:50</span>
+                            <div class="absolute -top-6 left-1/2 -translate-x-1/2 flex items-center space-x-2">
+                                <div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
+                                <span class="text-[10px] font-bold text-amber-500 tracking-widest uppercase">Now Playing</span>
+                            </div>
                         </div>
-                        <div class="flex items-center space-x-2">
-                            <div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
-                            <span class="text-xs font-bold text-amber-600 tracking-[0.2em] uppercase">Now Playing</span>
+                        <h3 class="text-2xl font-bold mb-3 text-white">Pachelbel's Canon in D</h3>
+                        <p class="text-gray-200 mb-8 leading-relaxed">Our most requested wedding piece, performed with
+                            ethereal grace.</p>
+                        <div class="w-full bg-white/20 h-2 rounded-full overflow-hidden flex justify-center">
+                            <div class="bg-amber-600 h-full w-3/4 shadow-[0_0_15px_rgba(212,175,55,1)]"></div>
                         </div>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Pachelbel's Canon in D</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-6">Our most requested wedding piece, performed with
-                        ethereal grace.</p>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 h-1.5 rounded-full overflow-hidden">
-                        <div class="bg-amber-600 h-full w-2/3"></div>
                     </div>
                 </div>
 
                 <!-- Sample 3 -->
                 <div
-                    class="group bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
-                    <div class="flex items-center justify-between mb-6">
-                        <div
-                            class="w-16 h-16 bg-amber-600/10 text-amber-600 rounded-2xl flex items-center justify-center group-hover:bg-amber-600 group-hover:text-white group-hover:shadow-2xl group-hover:shadow-amber-600/40 transition-all duration-500">
-                            <svg class="w-8 h-8 transform group-hover:scale-110 transition-transform"
-                                fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M8 5v14l11-7z" />
-                            </svg>
+                    class="group relative bg-gray-900 border border-gray-100 dark:border-gray-700 p-8 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden text-center">
+                    <img src="assets/img/bach_air.png" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-opacity duration-700" alt="Bach Air">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/40 to-transparent"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-center justify-center gap-x-12 mb-8">
+                            <div
+                                class="w-16 h-16 bg-amber-600 text-white rounded-2xl flex items-center justify-center shadow-xl shadow-amber-600/30 group-hover:scale-110 transition-transform duration-500 cursor-pointer">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                            <span class="text-xl font-bold font-mono text-white/90 drop-shadow-md">03:45</span>
                         </div>
-                        <span class="text-sm font-mono text-gray-400">03:45</span>
+                        <h3 class="text-2xl font-bold mb-3 text-white">Bach: Air on the G String</h3>
+                        <p class="text-gray-300 mb-8 leading-relaxed">Profoundly moving and serene, ideal for reflection
+                            and dinner.</p>
+                        <div class="w-full bg-white/10 h-2 rounded-full overflow-hidden flex justify-center">
+                            <div class="bg-amber-600 h-full w-3/4 shadow-[0_0_10px_rgba(212,175,55,0.8)]"></div>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">Bach: Air on the G String</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-6">Profoundly moving and serene, ideal for reflection
-                        and dinner.</p>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 h-1.5 rounded-full overflow-hidden">
-                        <div class="bg-amber-600 h-full w-1/2"></div>
+                </div>
+
+                <!-- Sample 4 -->
+                <div
+                    class="group relative bg-gray-900 border border-gray-100 dark:border-gray-700 p-8 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden text-center">
+                    <img src="assets/img/mozart_night.png" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-opacity duration-700" alt="Mozart Night">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/40 to-transparent"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-center justify-center gap-x-12 mb-8">
+                            <div
+                                class="w-16 h-16 bg-amber-600 text-white rounded-2xl flex items-center justify-center shadow-xl shadow-amber-600/30 group-hover:scale-110 transition-transform duration-500 cursor-pointer">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                            <span class="text-xl font-bold font-mono text-white/90 drop-shadow-md">05:15</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-white">Mozart: Eine kleine Nachtmusik</h3>
+                        <p class="text-gray-300 mb-8 leading-relaxed">A delightful and jaunty evening serenade, capturing the spirit of high Viennese society.</p>
+                        <div class="w-full bg-white/10 h-2 rounded-full overflow-hidden flex justify-center">
+                            <div class="bg-amber-600 h-full w-3/4 shadow-[0_0_10px_rgba(212,175,55,0.8)]"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -260,7 +298,7 @@
 
                     <div class="space-y-4">
                         <div
-                            class="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm flex items-center justify-between group cursor-pointer hover:border-amber-600/50 border border-transparent">
+                            class="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm flex items-center justify-between gap-x-8 group cursor-pointer hover:border-amber-600/50 border border-transparent">
                             <div class="flex items-center gap-6">
                                 <div class="text-center min-w-[60px]">
                                     <span
@@ -273,11 +311,11 @@
                                 </div>
                             </div>
                             <a href="#"
-                                class="text-amber-600 opacity-0 group-hover:opacity-100 transition-opacity">Tickets
+                                class="text-amber-600 font-bold opacity-100 transition-all border border-amber-600/30 hover:bg-amber-600 hover:text-white px-4 py-2 rounded-lg text-sm flex-shrink-0">Tickets
                                 →</a>
                         </div>
                         <div
-                            class="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm flex items-center justify-between group cursor-pointer hover:border-amber-600/50 border border-transparent">
+                            class="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm flex items-center justify-between gap-x-8 group cursor-pointer hover:border-amber-600/50 border border-transparent">
                             <div class="flex items-center gap-6">
                                 <div class="text-center min-w-[60px]">
                                     <span
@@ -290,7 +328,7 @@
                                 </div>
                             </div>
                             <a href="#"
-                                class="text-amber-600 opacity-0 group-hover:opacity-100 transition-opacity">Tickets
+                                class="text-amber-600 font-bold opacity-100 transition-all border border-amber-600/30 hover:bg-amber-600 hover:text-white px-4 py-2 rounded-lg text-sm flex-shrink-0">Tickets
                                 →</a>
                         </div>
                     </div>
@@ -403,7 +441,7 @@
                 </div>
                 <div class="relative z-10">
                     <a href="contact.html"
-                        class="w-full sm:w-auto px-8 py-4 sm:px-12 sm:py-6 bg-amber-600 text-white rounded-2xl sm:rounded-full text-lg sm:text-xl font-bold hover:bg-amber-700 transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 active:scale-95 shadow-2xl shadow-amber-600/20 flex items-center justify-center text-center">Request
+                        class="w-full sm:w-auto px-8 py-4 sm:px-12 sm:py-6 bg-amber-600 text-white rounded-2xl sm:rounded-full text-base sm:text-lg font-bold hover:bg-amber-700 transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 active:scale-95 shadow-2xl shadow-amber-600/20 flex items-center justify-center text-center">Request
                         a Bespoke Proposal</a>
                 </div>
 
@@ -441,6 +479,13 @@
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                             <path
                                 d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full flex items-center justify-center shadow-md hover:bg-amber-600 hover:text-white dark:hover:bg-amber-600 dark:hover:text-white transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-600/40 active:scale-95 active:bg-amber-600 active:text-white">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                         </svg>
                     </a>
                     <a href="#"

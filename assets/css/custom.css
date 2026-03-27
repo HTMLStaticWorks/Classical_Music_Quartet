@@ -57,3 +57,16 @@
 /* Theme Toggle Transitions */
 html.dark [dir="ltr"] .theme-toggle-icon { transform: translateX(24px); }
 html.dark [dir="rtl"] .theme-toggle-icon { transform: translateX(-24px); }
+
+/* Force custom Date Picker icon visibility in Dark Mode */
+html.dark input[type="date"]::-webkit-calendar-picker-indicator,
+html.dark input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.8) brightness(1.2) contrast(1.2);
+  cursor: pointer;
+}
+
+html.dark input[type="date"]::-webkit-calendar-picker-indicator:hover,
+html.dark input[type="time"]::-webkit-calendar-picker-indicator:hover {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(-50deg); /* Amber-like hover */
+}
+

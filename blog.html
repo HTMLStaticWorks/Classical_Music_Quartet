@@ -34,7 +34,7 @@
     <header
         class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 px-3 sm:px-6 md:px-12 bg-white/95 dark:bg-gray-900/95 shadow-md">
         <nav class="max-w-7xl mx-auto flex items-center justify-between">
-            <a href="index.html" class="flex items-center space-x-1 sm:space-x-2 rtl:space-x-reverse group lg:min-w-[200px]">
+            <a href="index.html" class="flex items-center space-x-1 sm:space-x-2 rtl:space-x-reverse group xl:min-w-[200px]">
                 <div
                     class="w-7 h-7 sm:w-10 sm:h-10 bg-amber-600 rounded-full flex items-center justify-center transform group-hover:rotate-12 transition-transform shadow-lg shrink-0">
                     <svg class="w-4 h-4 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,7 +47,7 @@
             </a>
 
             <!-- Desktop Navigation Links (Centered) -->
-            <div class="hidden lg:flex items-center space-x-8 rtl:space-x-reverse flex-1 justify-center px-4">
+            <div class="hidden xl:flex items-center space-x-8 rtl:space-x-reverse flex-1 justify-center px-4">
                 <a href="index.html" class="nav-link">Home 1</a>
                 <a href="home-2.html" class="nav-link">Home 2</a>
                 <a href="about.html" class="nav-link">About</a>
@@ -57,7 +57,7 @@
             </div>
 
             <div
-                class="hidden lg:flex items-center space-x-5 rtl:space-x-reverse lg:min-w-[280px] justify-end border-l border-gray-300 dark:border-gray-700 pl-4 rtl:pl-0 rtl:pr-4">
+                class="hidden xl:flex items-center space-x-5 rtl:space-x-reverse xl:min-w-[280px] justify-end border-l border-gray-300 dark:border-gray-700 pl-4 rtl:pl-0 rtl:pr-4">
                 <button id="theme-toggle"
                     class="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:scale-110 transition-transform">
                     <svg class="hidden dark:block w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
@@ -79,7 +79,7 @@
             </div>
 
 
-            <div class="lg:hidden flex items-center space-x-1 sm:space-x-2 rtl:space-x-reverse shrink-0">
+            <div class="xl:hidden flex items-center space-x-1 sm:space-x-2 rtl:space-x-reverse shrink-0">
                 <button id="theme-toggle-mobile"
                     class="p-1 sm:p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition-transform active:scale-90 flex-shrink-0">
                     <svg class="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
@@ -93,13 +93,13 @@
                     class="p-1.5 sm:p-2 bg-amber-600 text-white rounded-xl shadow-lg shadow-amber-600/20 active:scale-90 transition-transform flex items-center justify-center shrink-0">
                     <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7" />
+                            d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
             </div>
         </nav>
         <div id="mobile-menu"
-            class="hidden absolute top-full left-0 w-full bg-white dark:bg-gray-900 shadow-xl lg:hidden flex-col items-center py-8 space-y-6 animate-fade-up">
+            class="hidden absolute top-full left-0 w-full bg-white dark:bg-gray-900 shadow-xl xl:hidden flex-col items-center py-8 space-y-6 animate-fade-up">
             <a href="index.html" class="text-lg font-semibold nav-link">Home 1</a>
             <a href="home-2.html" class="text-lg font-semibold nav-link">Home 2</a>
             <a href="about.html" class="text-lg font-semibold nav-link">About</a>
@@ -165,11 +165,11 @@
                             atmosphere.</p>
                         <div class="flex flex-col sm:flex-row gap-6 items-center">
                             <a href="#"
-                                class="px-8 py-4 bg-amber-600 text-white rounded-full font-bold hover:bg-amber-700 transition">Read
+                                class="px-8 py-4 bg-amber-600 text-white rounded-full font-bold hover:bg-amber-700 hover:scale-105 hover:-translate-y-0.5 active:scale-95 shadow-lg shadow-amber-600/20 hover:shadow-amber-600/40 transition-all duration-300 inline-block">Read
                                 Entire Article</a>
                             <div class="flex items-center gap-3">
-                                <img src="https://images.unsplash.com/photo-1594623121110-3882aee657e3?auto=format&fit=crop&q=80&w=150"
-                                    class="w-10 h-10 rounded-full object-cover ring-2 ring-amber-600/20">
+                                <img src="assets/img/elena_moretti.png"
+                                    class="w-10 h-10 rounded-full object-cover ring-2 ring-amber-600/50 shadow-lg">
                                 <span class="text-sm font-bold">Elena Moretti</span>
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                                             of contact, offering a new perspective on achieving tonal clarity in complex
                                             passages.</p>
                                         <a href="#"
-                                            class="inline-block pt-2 font-bold text-sm border-b-2 border-amber-600/30 group-hover:border-amber-600 transition-all">Continue
+                                            class="inline-block pt-2 font-bold text-sm border-b-2 border-amber-600/30 hover:border-amber-600 hover:text-amber-600 hover:translate-x-1 transition-all duration-300">Continue
                                             Reading →</a>
                                     </div>
                                 </div>
@@ -237,7 +237,7 @@
                                             landscape of late 18th-century Vienna and its impact on the string quartet
                                             medium.</p>
                                         <a href="#"
-                                            class="inline-block pt-2 font-bold text-sm border-b-2 border-amber-600/30 group-hover:border-amber-600 transition-all">Continue
+                                            class="inline-block pt-2 font-bold text-sm border-b-2 border-amber-600/30 hover:border-amber-600 hover:text-amber-600 hover:translate-x-1 transition-all duration-300">Continue
                                             Reading →</a>
                                     </div>
                                 </div>
@@ -264,7 +264,7 @@
                                             discusses the challenges of translating contemporary vocal textures into
                                             string arrangements without losing the original's emotional core.</p>
                                         <a href="#"
-                                            class="inline-block pt-2 font-bold text-sm border-b-2 border-amber-600/30 group-hover:border-amber-600 transition-all">Continue
+                                            class="inline-block pt-2 font-bold text-sm border-b-2 border-amber-600/30 hover:border-amber-600 hover:text-amber-600 hover:translate-x-1 transition-all duration-300">Continue
                                             Reading →</a>
                                     </div>
                                 </div>
@@ -322,8 +322,8 @@
                             <p class="text-gray-500 text-sm">A deep dive into the importance of rest and timing in
                                 chamber ensemble performances.</p>
                             <a href="#"
-                                class="text-amber-600 font-bold text-xs uppercase tracking-widest pt-2 inline-block">Read
-                                Article</a>
+                                class="text-amber-600 font-bold text-xs uppercase tracking-widest pt-2 inline-block hover:text-amber-500 hover:translate-x-1 transition-all duration-300">Read
+                                Article →</a>
                         </div>
                     </div>
                 </aside>
@@ -404,6 +404,13 @@
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                             <path
                                 d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full flex items-center justify-center shadow-md hover:bg-amber-600 hover:text-white dark:hover:bg-amber-600 dark:hover:text-white transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-600/40 active:scale-95 active:bg-amber-600 active:text-white">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                         </svg>
                     </a>
                     <a href="#"
