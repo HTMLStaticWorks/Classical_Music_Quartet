@@ -117,7 +117,7 @@
 
         <!-- Mobile Menu -->
         <div id="mobile-menu"
-            class="hidden absolute top-full left-0 w-full bg-white dark:bg-gray-900 shadow-xl lg:hidden flex-col items-center py-8 space-y-6 animate-fade-up max-h-[calc(100vh-5rem)] overflow-y-auto">
+            class="hidden absolute top-full left-0 w-full bg-white dark:bg-gray-900 shadow-xl xl:hidden flex-col items-center py-8 space-y-6 animate-fade-up max-h-[calc(100vh-5rem)] overflow-y-auto">
             <a href="index.html" class="text-lg font-semibold nav-link hover:bg-amber-600/10 hover:text-amber-600 py-3 rounded-xl w-[90%] text-center transition-all">Home 1</a>
             <a href="home-2.html" class="text-lg font-semibold nav-link hover:bg-amber-600/10 hover:text-amber-600 py-3 rounded-xl w-[90%] text-center transition-all">Home 2</a>
             <a href="about.html" class="text-lg font-semibold nav-link hover:bg-amber-600/10 hover:text-amber-600 py-3 rounded-xl w-[90%] text-center transition-all">About</a>
@@ -135,23 +135,24 @@
 
     <main class="pt-20">
         <!-- Section 1: Hero -->
-        <section id="hero" class="relative min-h-[calc(100vh-5rem)] flex items-center justify-center py-12 md:py-20 overflow-hidden">
+        <section id="hero" class="relative min-h-[calc(100vh-5rem)] flex items-center justify-center py-12 md:py-20 overflow-hidden bg-black">
             <!-- Background Image with Overlay -->
             <div class="absolute inset-0 z-0">
                 <img src="https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&q=80&w=2070"
-                    alt="Classical String Quartet" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
+                    alt="Classical String Quartet" class="w-full h-full object-cover opacity-50 grayscale-[20%]">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/95 via-black/40 to-black/95"></div>
+                <div class="absolute inset-0 bg-black/40"></div>
             </div>
 
             <div class="relative z-10 max-w-7xl mx-auto px-6 text-center w-full">
                 <div class="max-w-4xl mx-auto space-y-8 animate-fade-up flex flex-col items-center">
                     <span
-                        class="inline-block px-4 py-1 sm:px-6 sm:py-2 bg-amber-600 text-white rounded-full text-[10px] sm:text-xs font-bold tracking-[0.2em] sm:tracking-[0.4em] uppercase shadow-lg shadow-amber-600/20 hover:bg-amber-700 hover:scale-105 hover:shadow-xl hover:shadow-amber-600/40 active:scale-95 transition-all duration-300">World
+                        class="inline-block px-4 py-1 sm:px-6 sm:py-2 bg-amber-600 text-white rounded-full text-[10px] sm:text-xs font-black tracking-[0.2em] sm:tracking-[0.4em] uppercase shadow-2xl shadow-amber-600/60 hover:bg-amber-700 hover:scale-105 hover:shadow-xl hover:shadow-amber-600/40 active:scale-95 transition-all duration-300">World
                         Class Ensembles</span>
-                    <h1 class="text-4xl md:text-8xl lg:text-9xl font-serif text-white leading-tight">Harmonize Your
+                    <h1 class="text-3xl md:text-6xl lg:text-7xl font-serif text-white leading-tight drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)]">Harmonize Your
                         <br><span class="italic text-amber-500 group-hover:text-white transition-colors">Finest Moments</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-gray-300 font-sans max-w-2xl mx-auto leading-relaxed">From
+                    <p class="text-lg md:text-xl text-white font-medium max-w-2xl mx-auto leading-relaxed drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">From
                         intimate candlelit weddings to grand gala dinners, experience the transformative power of live
                         classical music performed by award-winning virtuosos.</p>
                         <div
@@ -164,7 +165,7 @@
                                     d="M14 5l7 7m0 0l-7 7m7-7H3" />
                             </svg></a>
                         <a href="about.html"
-                            class="px-8 py-4 md:px-12 md:py-5 border-2 border-white/30 text-white rounded-full font-bold hover:bg-white/10 hover:border-white/60 transition-all duration-300 backdrop-blur-sm flex items-center justify-center hover:-translate-y-1 hover:scale-105 active:scale-95 text-sm md:text-base whitespace-nowrap">The
+                            class="px-8 py-4 md:px-12 md:py-5 border-2 border-white/60 text-white rounded-full font-bold hover:bg-white/10 hover:border-white/80 transition-all duration-300 backdrop-blur-sm flex items-center justify-center hover:-translate-y-1 hover:scale-105 active:scale-95 text-sm md:text-base whitespace-nowrap">The
                             Musicians</a>
                     </div>
                 </div>
@@ -176,7 +177,7 @@
         <!-- Section 2: Audio Samples -->
         <section id="audio-samples" class="py-24 px-6 md:px-12 bg-white dark:bg-dark-900 transition-colors">
             <div class="max-w-7xl mx-auto text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-serif mb-4">Our Signature <span class="italic">Sound</span></h2>
+                <h2 class="text-3xl md:text-4xl font-serif mb-4">Our Signature <span class="italic">Sound</span></h2>
                 <p class="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">Listen to the technical brilliance and
                     emotional depth of Elysian Strings. Recorded live at the Royal Philharmonic Hall.</p>
             </div>
@@ -291,7 +292,7 @@
         <section id="calendar" class="py-24 px-6 md:px-12 bg-gray-50 dark:bg-dark-950">
             <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
                 <div class="lg:w-1/2 space-y-8 animate-fade-up">
-                    <h2 class="text-4xl md:text-5xl font-serif">Public <span class="text-amber-600">Concerts</span> &
+                    <h2 class="text-3xl md:text-4xl font-serif">Public <span class="text-amber-600">Concerts</span> &
                         Gala Apperances</h2>
                     <p class="text-lg text-gray-600 dark:text-gray-400">While we specialize in private events, we
                         occasionally perform for the public. Join us for an evening of technical mastery.</p>
@@ -364,7 +365,7 @@
                 <div class="lg:w-1/2 space-y-8 flex flex-col items-center text-center mx-auto">
                     <span class="text-amber-600 font-bold uppercase tracking-[0.4em] text-xs block mb-2">Crafted with
                         Passion</span>
-                    <h2 class="text-4xl md:text-5xl font-serif">Technical <span class="italic">Perfection</span> Meets
+                    <h2 class="text-3xl md:text-4xl font-serif">Technical <span class="italic">Perfection</span> Meets
                         Soulful Artistry</h2>
                     <p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed max-w-xl mx-auto">Formed by
                         graduates of the Royal Academy of Music, Elysian Strings brings together four master
@@ -400,17 +401,17 @@
         <!-- Section 5: Testimonials -->
         <section class="py-24 px-6 md:px-12 bg-amber-600 text-white relative overflow-hidden hover:bg-amber-700 hover:scale-105 hover:shadow-xl hover:shadow-amber-600/40 active:scale-95 transition-all duration-300">
             <!-- Abstract Circles -->
-            <div class="absolute -top-24 -right-24 w-96 h-96 border border-white/10 rounded-full"></div>
-            <div class="absolute -bottom-24 -left-24 w-64 h-64 border border-white/10 rounded-full"></div>
+            <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5"></div>
+            <div class="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-white/5"></div>
 
             <div class="max-w-4xl mx-auto text-center relative z-10">
                 <div class="text-6xl font-serif mb-8 text-white/30">“</div>
-                <h3 class="text-2xl md:text-4xl font-serif italic leading-snug mb-8">"Elysian Strings didn't just play
+                <h3 class="text-xl md:text-3xl font-serif italic leading-snug mb-8">"Elysian Strings didn't just play
                     music; they created an atmosphere of pure enchantment. Our guests are still talking about the
                     processional months later."</h3>
                 <div class="flex flex-col items-center">
                     <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200"
-                        alt="Client" class="w-20 h-20 rounded-full border-4 border-white/20 mb-4 object-cover">
+                        alt="Client" class="w-20 h-20 rounded-full mb-4 object-cover shadow-lg">
                     <span class="font-bold text-lg tracking-widest uppercase">The Duchess of Somerset</span>
                     <span class="text-white/70 text-sm">Wedding at Windsor Castle</span>
                 </div>
@@ -422,7 +423,7 @@
             <div
                 class="max-w-7xl mx-auto bg-gray-900 rounded-[3rem] p-12 md:p-24 relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-12 text-center lg:text-left rtl:text-right">
                 <div class="relative z-10 max-w-xl">
-                    <h2 class="text-4xl md:text-5xl font-serif text-white mb-6">Ready to <span
+                    <h2 class="text-3xl md:text-4xl font-serif text-white mb-6">Ready to <span
                             class="text-amber-600">Elevate</span> Your Event?</h2>
                     <p class="text-gray-400 text-lg mb-8">Secure your date today and let us help you design the perfect
                         musical backdrop for your celebration.</p>
@@ -456,7 +457,7 @@
 
     <!-- Footer -->
     <footer
-        class="bg-gray-100 dark:bg-gray-900 pt-20 pb-10 px-6 md:px-12 border-t border-gray-200 dark:border-gray-800 transition-colors">
+        class="bg-gray-100 dark:bg-gray-900 pt-20 pb-10 px-6 md:px-12 border-t border-gray-200 dark:border-transparent transition-colors">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
             <!-- Brand -->
             <div class="space-y-6">
@@ -556,7 +557,7 @@
 
         <!-- Copyright -->
         <div
-            class="max-w-7xl mx-auto pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-sm text-gray-500">
+            class="max-w-7xl mx-auto pt-8 border-t border-gray-200 dark:border-transparent text-center text-sm text-gray-500">
             <p>&copy; 2026 Elysian Strings Classical Music Quartet. All rights reserved.</p>
         </div>
     </footer>
