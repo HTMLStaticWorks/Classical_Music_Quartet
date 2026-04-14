@@ -16,6 +16,19 @@
   }
 }
 
+/* Hide default browser password reveal/clear buttons */
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+input::-webkit-contacts-auto-fill-button,
+input::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+}
+
 @layer components {
   .nav-link {
     @apply relative py-2 text-gray-700 dark:text-gray-300 transition-all hover:text-amber-600 dark:hover:text-amber-500 hover:scale-110 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-amber-600 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0;
