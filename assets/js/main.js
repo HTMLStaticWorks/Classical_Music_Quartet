@@ -130,4 +130,25 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // 8. Password Visibility Toggle
+    const passwordToggles = document.querySelectorAll('.password-toggle');
+    passwordToggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+            const targetId = toggle.getAttribute('data-target');
+            const passwordInput = document.getElementById(targetId);
+            const eyeOn = toggle.querySelector('.eye-on');
+            const eyeOff = toggle.querySelector('.eye-off');
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                eyeOn.classList.remove('hidden');
+                eyeOff.classList.add('hidden');
+            } else {
+                passwordInput.type = 'password';
+                eyeOn.classList.add('hidden');
+                eyeOff.classList.remove('hidden');
+            }
+        });
+    });
 });
